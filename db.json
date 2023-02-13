@@ -2,25 +2,28 @@
     "information": [
     {
       "id": 1,
-     "Genre": "",
+     "Genre": "Pop",
      "image": " ",
-     "message": " ",
+     "artists": " Michael jackson, The Beatles, Lady Gaga",
+     "message": " A genre of popular music that originated in the West during the 1950s and 1960s. Pop music is eclectic, often borrowing elements from urban, dance, rock, Latin, country, and other styles. Songs are typically short to medium-length with repeated choruses, melodic tunes, and hooks.",
       "likes": 0
    },
    
     {
      "id" : 2,
-     "Genre": "",
+     "Genre": "Country",
      "image": " ",
-     "message": "  ",
+     "artists": " Johnny Vash, Dolly Parton, Taylor Swift",
+     "message": "Country music is an American musical style that incorporates elements of folk, bluegrass, blues, and rural dance music. Music historians trace its origins to the southern Appalachian Mountains in the late 1920s, particularly in eastern Tennessee and southwest Virginia.  ",
      "likes": 0
     },
 
    {
     "id": 3,
-    "Genre": "",
+    "Genre": "Rock N Roll",
     "image": " ",
-    "message": "",   
+    "artists": "Metalica, Queen, Van Halen ",
+    "message": " :Rock 'n' Roll is a popular music genre that combines elements of rhythm and blues (R&B), jazz, and country music with the addition of electric instruments. Originally associated with youth revolt and transgression, the genre is known for energetic performances, catchy melodies, and often insightful lyrics.",   
     "likes": 0
    },
 
@@ -28,6 +31,7 @@
     "id" : 4,
     "Genre": "R&B",
     "image": " ",
+    "artists": " ",
     "message": "Rhythm and blues, frequently abbreviated as R&B or R'n'B, is a genre of popular music that originated in African-American communities in the 1940s.",
    "likes": 0
   },
@@ -35,6 +39,7 @@
     "id" : 5,
     "Genre": "Hip-Hop / Rap",
     "image": " ",
+    "artists": " ",
     "message": "Hip hop music or hip-hop music, also known as rap music and formerly known as disco rap, is a genre of popular music that originated in New York City in the 1970s. It consists of stylized rhythmic music that commonly accompanies rapping, a rhythmic and rhyming speech that is chanted. ",
     "likes": 0
    },
@@ -42,6 +47,7 @@
     "id" : 6,
     "Genre": "Electronic Dance Music(EDM)",
     "image": " ",
+    "artists": " ",
     "message": "Electronic dance music, also known as dance music, club music, or simply dance, is a broad range of percussive electronic music genres made largely for nightclubs, raves, and festivals. ",
     "likes": 0
    },
@@ -49,6 +55,7 @@
     "id" : 7,
     "Genre": "",
     "image": " ",
+    "artists": " ",
     "message": " ",
     "likes": 0
    },
@@ -56,6 +63,7 @@
     "id" : 8,
     "Genre": "",
     "image": " ",
+    "artists": " ",
     "message": " ",
     "likes": 0
    },
@@ -63,6 +71,7 @@
     "id" : 9,
     "Genre": "",
     "image": " ",
+    "artists": " ",
     "message": " ",
     "likes": 0
    },
@@ -70,6 +79,7 @@
     "id" : 10,
     "Genre": "",
     "image": " ",
+    "artists": " ",
     "message": " ",
     "likes": 0
    },
@@ -77,6 +87,7 @@
     "id" : 11,
     "Genre": "",
     "image": " ",
+    "artists": " ",
     "message": " ",
     "likes": 0
    }
