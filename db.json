@@ -53,26 +53,26 @@
    },
    {    
     "id" : 7,
-    "Genre": "",
+    "Genre": "Jazz",
     "image": " ",
-    "artists": " ",
-    "message": " ",
+    "artists": "John Coltrane, Louis Armstrong, Miles Davis ",
+    "message": "Jazz is a music genre that originated in the African-American communities of New Orleans, Louisiana, in the late 19th and early 20th centuries, with its roots in blues and ragtime.",
     "likes": 0
    },
    {    
     "id" : 8,
-    "Genre": "",
+    "Genre": "Latin",
     "image": " ",
-    "artists": " ",
-    "message": " ",
+    "artists": "Gloria Estefan, Selena",
+    "message": " Latin music is a term used by the music industry as a catch-all category for various styles of music from Ibero-America, which encompasses Latin America, Spain, Portugal, and the Latino community in Canada and the United States, as well as music that is sung in either Spanish and/or Portuguese.",
     "likes": 0
    },
    {    
     "id" : 9,
-    "Genre": "",
+    "Genre": "K-Pop",
     "image": " ",
-    "artists": " ",
-    "message": " ",
+    "artists": "Jungkook, IU",
+    "message": "K-pop is a genre of pop music originating from South Korea. The genre combines such Western pop music elements as hip-hop and rock with Korean traditions, and frequently involves dance routines and singing in Korean lyrics intermixed with some English.",
     "likes": 0
    },
    {    
