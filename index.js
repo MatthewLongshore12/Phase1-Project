@@ -10,7 +10,7 @@ fetch( 'http://localhost:3000/information' )
 function renderMusic( musicArray ) {
 
  musicArray.forEach( music => {
-   console.log(music)
+   //console.log(music)
    const conatiner = document.querySelector("body > div")
     //const olConatiner = document.querySelector("#myCarousel > ol")
     const newDiv = document.createElement("div")
@@ -38,3 +38,9 @@ function renderMusic( musicArray ) {
   })
 
 }
+
+const theForm = document.querySelector("#theForm")
+theForm.addEventListener("submit", (e) => {
+    e.preventDefault()
+    console.log("I was clicked!")
+})
