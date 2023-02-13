@@ -31,7 +31,7 @@
     "id" : 4,
     "Genre": "R&B",
     "image": " ",
-    "artists": " ",
+    "artists": "Aretha Franklin, Whitney Houston, Beyonce",
     "message": "Rhythm and blues, frequently abbreviated as R&B or R'n'B, is a genre of popular music that originated in African-American communities in the 1940s.",
    "likes": 0
   },
@@ -39,7 +39,7 @@
     "id" : 5,
     "Genre": "Hip-Hop / Rap",
     "image": " ",
-    "artists": " ",
+    "artists": "Tupac, Jay-Z, Eminem",
     "message": "Hip hop music or hip-hop music, also known as rap music and formerly known as disco rap, is a genre of popular music that originated in New York City in the 1970s. It consists of stylized rhythmic music that commonly accompanies rapping, a rhythmic and rhyming speech that is chanted. ",
     "likes": 0
    },
@@ -47,7 +47,7 @@
     "id" : 6,
     "Genre": "Electronic Dance Music(EDM)",
     "image": " ",
-    "artists": " ",
+    "artists": "Daft Punk, Avicii, Calvin Harris",
     "message": "Electronic dance music, also known as dance music, club music, or simply dance, is a broad range of percussive electronic music genres made largely for nightclubs, raves, and festivals. ",
     "likes": 0
    },
