@@ -58,9 +58,8 @@ function renderMusic( musicArray ) {
 
 const theForm = document.querySelector("#theForm")
 theForm.addEventListener("submit", (e) => {
-    e.preventDefault()
+    e.preventDefault();
     
-
     const addNewMusic = {
       Genre: e.target.fgenre.value,
       image: e.target.fimg.value,
@@ -82,19 +81,3 @@ theForm.addEventListener("submit", (e) => {
 })
 renderMusic( )
 
-
-// document.getElementById("h1").addEventListener("mouseover", mouseOver);
-// document.getElementById("h1").addEventListener("mouseout", mouseOut);
-// document.getElementById("p").addEventListener("mouseover", mouseOver);
-// document.getElementById("p").addEventListener("mouseout", mouseOut);
-
-// function mouseOver() {
-//     document.getElementById("h1").style.color = "red";
-//     document.getElementById("p").style.color = "#990000";
-
-// }
-  
-// function mouseOut() {
-//     document.getElementById("h1").style.color = "black";
-//     document.getElementById("p").style.color = "black";
-// }
