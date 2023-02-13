@@ -27,7 +27,8 @@ function renderMusic( musicArray ) {
     p.className = "carousel-caption"
    
    const button = document.createElement("button")
-   button.textContent = music.likes + " Likes \u2665"
+   let likes = 0
+   button.textContent = likes + parseInt(music.likes) + " Likes \u2665"
    newDiv.append(h2, image, h3, p, button)
    
    button.addEventListener("click", () => {
@@ -42,7 +43,25 @@ function renderMusic( musicArray ) {
 const theForm = document.querySelector("#theForm")
 theForm.addEventListener("submit", (e) => {
     e.preventDefault()
-    console.log("I was clicked!")
+    
+
+    const addNewMusic = {
+      Genre: e.target.fgenre.value,
+      image: e.target.fimg.value,
+      artists: e.target.fartist.value,
+      message: e.target.fdesc.value
+    }
+    
+    fetch( 'http://localhost:3000/information', {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify( addNewMusic )
+    } )
+    .then( r => r.json() )
+    .then( addNewMusicObj => {
+      console.log( 'is it work'), addNewMusicObj
+    })
+    renderMusic( addNewMusicObj )
 })
 
 

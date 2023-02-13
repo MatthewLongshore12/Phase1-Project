@@ -1,89 +1,105 @@
 {
-    "information": [
+  "information": [
     {
       "id": 1,
-     "Genre": "Pop",
-     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStMCApjjBMhhf-bTcIYlR0WE2JNbgU6BrTuQ&usqp=CAU",
-     "artists": " Michael jackson, The Beatles, Lady Gaga",
-     "message": " A genre of popular music that originated in the West during the 1950s and 1960s. Pop music is eclectic, often borrowing elements from urban, dance, rock, Latin, country, and other styles. Songs are typically short to medium-length with repeated choruses, melodic tunes, and hooks.",
+      "Genre": "Pop",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStMCApjjBMhhf-bTcIYlR0WE2JNbgU6BrTuQ&usqp=CAU",
+      "artists": " Michael jackson, The Beatles, Lady Gaga",
+      "message": " A genre of popular music that originated in the West during the 1950s and 1960s. Pop music is eclectic, often borrowing elements from urban, dance, rock, Latin, country, and other styles. Songs are typically short to medium-length with repeated choruses, melodic tunes, and hooks.",
       "likes": 7
-   },
-   
-    {
-     "id" : 2,
-     "Genre": "Country",
-     "image": "https://www.rollingstone.com/wp-content/uploads/2023/01/dolly-parton-new-song.jpg ",
-     "artists": " Johnny Cash, Dolly Parton, Taylor Swift",
-     "message": "Country music is an American musical style that incorporates elements of folk, bluegrass, blues, and rural dance music. Music historians trace its origins to the southern Appalachian Mountains in the late 1920s, particularly in eastern Tennessee and southwest Virginia.  ",
-     "likes": 2
     },
-
-   {
-    "id": 3,
-    "Genre": "Rock N Roll",
-    "image": "https://www.gannett-cdn.com/presto/2019/01/25/PNAS/a2ba5af2-f783-4889-90c0-aba94248128a-Metallica-20190124-01.jpg?crop=3299,1856,x1,y209&width=3200&height=1801&format=pjpg&auto=webp",
-    "artists": "Metalica, Queen, Van Halen ",
-    "message": " :Rock 'n' Roll is a popular music genre that combines elements of rhythm and blues (R&B), jazz, and country music with the addition of electric instruments. Originally associated with youth revolt and transgression, the genre is known for energetic performances, catchy melodies, and often insightful lyrics.",   
-    "likes": 6
-   },
-
-   {
-    "id" : 4,
-    "Genre": "R&B",
-    "image": "https://hollywoodlife.com/wp-content/uploads/2022/09/Whitney-Houston-Biopic-shuttr-embed-3.jpg",
-    "artists": "Aretha Franklin, Whitney Houston, Beyonce",
-    "message": "Rhythm and blues, frequently abbreviated as R&B or R'n'B, is a genre of popular music that originated in African-American communities in the 1940s.",
-   "likes": 6
-  },
-  {    
-    "id" : 5,
-    "Genre": "Hip-Hop / Rap",
-    "image": "https://i1.sndcdn.com/artworks-Ull62BtzkLNbGGiz-WFlrqw-t500x500.jpg",
-    "artists": "Tupac, Jay-Z, Eminem",
-    "message": "Hip hop music or hip-hop music, also known as rap music and formerly known as disco rap, is a genre of popular music that originated in New York City in the 1970s. It consists of stylized rhythmic music that commonly accompanies rapping, a rhythmic and rhyming speech that is chanted. ",
-    "likes": 8
-   },
-   {    
-    "id" : 6,
-    "Genre": "Electronic Dance Music(EDM)",
-    "image": " https://i1.sndcdn.com/artworks-jC1A0yJSH1BE2ryJ-c3xPLw-t500x500.jpg",
-    "artists": "Daft Punk, Avicii, Calvin Harris",
-    "message": "Electronic dance music, also known as dance music, club music, or simply dance, is a broad range of percussive electronic music genres made largely for nightclubs, raves, and festivals. ",
-    "likes": 9
-   },
-   {    
-    "id" : 7,
-    "Genre": "Jazz",
-    "image": " https://imaging.broadway.com/images/regular-43/w735/115589-10.jpg",
-    "artists": "John Coltrane, Louis Armstrong, Miles Davis ",
-    "message": "Jazz is a music genre that originated in the African-American communities of New Orleans, Louisiana, in the late 19th and early 20th centuries, with its roots in blues and ragtime.",
-    "likes": 10
-   },
-   {    
-    "id" : 8,
-    "Genre": "Latin",
-    "image": " https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2022-03/220314-Singer-Selena-Quintanilla-Perez-1995-ac-454p-58eb9f.jpg",
-    "artists": "Gloria Estefan, Selena",
-    "message": " Latin music is a term used by the music industry as a catch-all category for various styles of music from Ibero-America, which encompasses Latin America, Spain, Portugal, and the Latino community in Canada and the United States, as well as music that is sung in either Spanish and/or Portuguese.",
-    "likes": 8
-   },
-   {    
-    "id" : 9,
-    "Genre": "K-Pop",
-    "image": "https://images.axios.com/fpz10x98FPRt91WlS6QwIKr2Uno=/455x0:2596x2141/1920x1920/2022/11/12/1668279985692.jpg ",
-    "artists": "Jungkook, IU",
-    "message": "K-pop is a genre of pop music originating from South Korea. The genre combines such Western pop music elements as hip-hop and rock with Korean traditions, and frequently involves dance routines and singing in Korean lyrics intermixed with some English.",
-    "likes": 5
-   },
-   {    
-    "id" : 10,
-    "Genre": "Classical",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg ",
-    "artists": " Ludwig van Beethoven, Wolfgang Amides Mozart, John Sebatian Bach",
-    "message": "Classical music is hard to define in specific terms, but it is generally understood to be music rooted in Western European traditions performed by trained musicians in formal settings like concert halls, opera houses, and churches. ",
-    "likes": 2
-   }
-   
-   
-    ]
-   }
+    {
+      "id": 2,
+      "Genre": "Country",
+      "image": "https://www.rollingstone.com/wp-content/uploads/2023/01/dolly-parton-new-song.jpg ",
+      "artists": " Johnny Cash, Dolly Parton, Taylor Swift",
+      "message": "Country music is an American musical style that incorporates elements of folk, bluegrass, blues, and rural dance music. Music historians trace its origins to the southern Appalachian Mountains in the late 1920s, particularly in eastern Tennessee and southwest Virginia.  ",
+      "likes": 2
+    },
+    {
+      "id": 3,
+      "Genre": "Rock N Roll",
+      "image": "https://www.gannett-cdn.com/presto/2019/01/25/PNAS/a2ba5af2-f783-4889-90c0-aba94248128a-Metallica-20190124-01.jpg?crop=3299,1856,x1,y209&width=3200&height=1801&format=pjpg&auto=webp",
+      "artists": "Metalica, Queen, Van Halen ",
+      "message": " :Rock 'n' Roll is a popular music genre that combines elements of rhythm and blues (R&B), jazz, and country music with the addition of electric instruments. Originally associated with youth revolt and transgression, the genre is known for energetic performances, catchy melodies, and often insightful lyrics.",
+      "likes": 6
+    },
+    {
+      "id": 4,
+      "Genre": "R&B",
+      "image": "https://hollywoodlife.com/wp-content/uploads/2022/09/Whitney-Houston-Biopic-shuttr-embed-3.jpg",
+      "artists": "Aretha Franklin, Whitney Houston, Beyonce",
+      "message": "Rhythm and blues, frequently abbreviated as R&B or R'n'B, is a genre of popular music that originated in African-American communities in the 1940s.",
+      "likes": 6
+    },
+    {
+      "id": 5,
+      "Genre": "Hip-Hop / Rap",
+      "image": "https://i1.sndcdn.com/artworks-Ull62BtzkLNbGGiz-WFlrqw-t500x500.jpg",
+      "artists": "Tupac, Jay-Z, Eminem",
+      "message": "Hip hop music or hip-hop music, also known as rap music and formerly known as disco rap, is a genre of popular music that originated in New York City in the 1970s. It consists of stylized rhythmic music that commonly accompanies rapping, a rhythmic and rhyming speech that is chanted. ",
+      "likes": 8
+    },
+    {
+      "id": 6,
+      "Genre": "Electronic Dance Music(EDM)",
+      "image": " https://i1.sndcdn.com/artworks-jC1A0yJSH1BE2ryJ-c3xPLw-t500x500.jpg",
+      "artists": "Daft Punk, Avicii, Calvin Harris",
+      "message": "Electronic dance music, also known as dance music, club music, or simply dance, is a broad range of percussive electronic music genres made largely for nightclubs, raves, and festivals. ",
+      "likes": 9
+    },
+    {
+      "id": 7,
+      "Genre": "Jazz",
+      "image": " https://imaging.broadway.com/images/regular-43/w735/115589-10.jpg",
+      "artists": "John Coltrane, Louis Armstrong, Miles Davis ",
+      "message": "Jazz is a music genre that originated in the African-American communities of New Orleans, Louisiana, in the late 19th and early 20th centuries, with its roots in blues and ragtime.",
+      "likes": 10
+    },
+    {
+      "id": 8,
+      "Genre": "Latin",
+      "image": " https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2022-03/220314-Singer-Selena-Quintanilla-Perez-1995-ac-454p-58eb9f.jpg",
+      "artists": "Gloria Estefan, Selena",
+      "message": " Latin music is a term used by the music industry as a catch-all category for various styles of music from Ibero-America, which encompasses Latin America, Spain, Portugal, and the Latino community in Canada and the United States, as well as music that is sung in either Spanish and/or Portuguese.",
+      "likes": 8
+    },
+    {
+      "id": 9,
+      "Genre": "K-Pop",
+      "image": "https://images.axios.com/fpz10x98FPRt91WlS6QwIKr2Uno=/455x0:2596x2141/1920x1920/2022/11/12/1668279985692.jpg ",
+      "artists": "Jungkook, IU",
+      "message": "K-pop is a genre of pop music originating from South Korea. The genre combines such Western pop music elements as hip-hop and rock with Korean traditions, and frequently involves dance routines and singing in Korean lyrics intermixed with some English.",
+      "likes": 5
+    },
+    {
+      "id": 10,
+      "Genre": "Classical",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg ",
+      "artists": " Ludwig van Beethoven, Wolfgang Amides Mozart, John Sebatian Bach",
+      "message": "Classical music is hard to define in specific terms, but it is generally understood to be music rooted in Western European traditions performed by trained musicians in formal settings like concert halls, opera houses, and churches. ",
+      "likes": 2
+    },
+    {
+      "Genre": "rap",
+      "image": "",
+      "artists": "Lil Wayne",
+      "message": "He made the carter 2",
+      "id": 11
+    },
+    {
+      "Genre": "pop",
+      "image": "",
+      "artists": "adele",
+      "message": "shes cool",
+      "id": 12
+    },
+    {
+      "Genre": "pop",
+      "image": "",
+      "artists": "bruno mars",
+      "message": "cool",
+      "id": 13
+    }
+  ]
+}
