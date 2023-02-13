@@ -1,15 +1,25 @@
-body {
+body { 
     text-align: center;
 }
 
 h1 {
-    color: blueviolet;
+    color: black;
 }
 
 form {
     text-align: center;
+    border-style: ridge;
 }
 
-.container {
-    flex-direction: row;
-  }
+div {
+    text-align: center;
+    border-style: ridge;
+      
+}
+img {
+
+
+        width: 500px;
+      
+
+}
