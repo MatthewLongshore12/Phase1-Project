@@ -2,7 +2,6 @@
     "information": [
     {
       "id": 1,
-     "Title": "",
      "Genre": "",
      "image": " ",
      "message": " ",
@@ -11,7 +10,6 @@
    
     {
      "id" : 2,
-     "Title": "",
      "Genre": "",
      "image": " ",
      "message": "  ",
@@ -20,7 +18,6 @@
 
    {
     "id": 3,
-    "Title": " ",
     "Genre": "",
     "image": " ",
     "message": "",   
@@ -29,17 +26,16 @@
 
    {
     "id" : 4,
-    "Title": " ",
     "Genre": "",
     "image": " ",
     "message": " ",
    "likes": 0
   },
-{    "id" : 5,
-     "Title": "",
-     "Genre": "",
-     "image": " ",
-     "message": " ",
+  {    
+    "id" : 5,
+    "Genre": "",
+    "image": " ",
+    "message": " ",
     "likes": 0
    }
 
