@@ -77,21 +77,13 @@
    },
    {    
     "id" : 10,
-    "Genre": "",
+    "Genre": "Classical",
     "image": " ",
-    "artists": " ",
-    "message": " ",
-    "likes": 0
-   },
-   {    
-    "id" : 11,
-    "Genre": "",
-    "image": " ",
-    "artists": " ",
-    "message": " ",
+    "artists": " Ludwig van Beethoven, Wolfgang Amides Mozart, John Sebatian Bach",
+    "message": "Classical music is hard to define in specific terms, but it is generally understood to be music rooted in Western European traditions performed by trained musicians in formal settings like concert halls, opera houses, and churches. ",
     "likes": 0
    }
-
+   
    
     ]
    }
