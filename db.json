@@ -5,7 +5,7 @@
      "Genre": "",
      "image": " ",
      "message": " ",
-    "likes": 0
+      "likes": 0
    },
    
     {
@@ -26,23 +26,23 @@
 
    {
     "id" : 4,
-    "Genre": "",
+    "Genre": "R&B",
     "image": " ",
-    "message": " ",
+    "message": "Rhythm and blues, frequently abbreviated as R&B or R'n'B, is a genre of popular music that originated in African-American communities in the 1940s.",
    "likes": 0
   },
   {    
     "id" : 5,
-    "Genre": "",
+    "Genre": "Hip-Hop / Rap",
     "image": " ",
-    "message": " ",
+    "message": "Hip hop music or hip-hop music, also known as rap music and formerly known as disco rap, is a genre of popular music that originated in New York City in the 1970s. It consists of stylized rhythmic music that commonly accompanies rapping, a rhythmic and rhyming speech that is chanted. ",
     "likes": 0
    },
    {    
     "id" : 6,
-    "Genre": "",
+    "Genre": "Electronic Dance Music(EDM)",
     "image": " ",
-    "message": " ",
+    "message": "Electronic dance music, also known as dance music, club music, or simply dance, is a broad range of percussive electronic music genres made largely for nightclubs, raves, and festivals. ",
     "likes": 0
    },
    {    
