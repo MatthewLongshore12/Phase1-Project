@@ -29,7 +29,7 @@ function renderMusic( musicArray ) {
    const button = document.createElement("button")
    button.textContent = music.likes + " Likes \u2665"
    newDiv.append(h2, image, h3, p, button)
-
+   
    button.addEventListener("click", () => {
     button.textContent = parseInt(button.textContent) + 1 + " Likes \u2665"
  
@@ -44,3 +44,20 @@ theForm.addEventListener("submit", (e) => {
     e.preventDefault()
     console.log("I was clicked!")
 })
+
+
+document.getElementById("h1").addEventListener("mouseover", mouseOver);
+document.getElementById("h1").addEventListener("mouseout", mouseOut);
+document.getElementById("p").addEventListener("mouseover", mouseOver);
+document.getElementById("p").addEventListener("mouseout", mouseOut);
+
+function mouseOver() {
+    document.getElementById("h1").style.color = "red";
+    document.getElementById("p").style.color = "#990000";
+
+  }
+  
+  function mouseOut() {
+    document.getElementById("h1").style.color = "black";
+    document.getElementById("p").style.color = "black";
+  }
