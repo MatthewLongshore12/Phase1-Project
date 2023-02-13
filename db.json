@@ -3,6 +3,7 @@
     {
       "id": 1,
      "Title": "",
+     "Genre": "",
      "image": " ",
      "message": " ",
     "likes": 0
@@ -11,6 +12,7 @@
     {
      "id" : 2,
      "Title": "",
+     "Genre": "",
      "image": " ",
      "message": "  ",
      "likes": 0
@@ -19,6 +21,7 @@
    {
     "id": 3,
     "Title": " ",
+    "Genre": "",
     "image": " ",
     "message": "",   
     "likes": 0
@@ -27,12 +30,14 @@
    {
     "id" : 4,
     "Title": " ",
+    "Genre": "",
     "image": " ",
     "message": " ",
    "likes": 0
   },
 {    "id" : 5,
      "Title": "",
+     "Genre": "",
      "image": " ",
      "message": " ",
     "likes": 0
