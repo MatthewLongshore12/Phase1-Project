@@ -62,8 +62,9 @@ theForm.addEventListener("submit", (e) => {
     .then( addNewMusicObj => {
       console.log( 'is it work'), addNewMusicObj
     })
-    renderMusic( addNewMusicObj )
+    //renderMusic( addNewMusicObj )
 })
+renderMusic( addNewMusicObj )
 
 
 document.getElementById("h1").addEventListener("mouseover", mouseOver);
