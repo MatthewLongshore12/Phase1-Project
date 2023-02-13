@@ -49,7 +49,8 @@ theForm.addEventListener("submit", (e) => {
       Genre: e.target.fgenre.value,
       image: e.target.fimg.value,
       artists: e.target.fartist.value,
-      message: e.target.fdesc.value
+      message: e.target.fdesc.value,
+      likes: e.target.vol.value
     }
     
     fetch( 'http://localhost:3000/information', {
