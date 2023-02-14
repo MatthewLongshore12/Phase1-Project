@@ -1,18 +1,18 @@
-document.getElementById("h1").addEventListener("mouseover", mouseOver);
-document.getElementById("h1").addEventListener("mouseout", mouseOut);
-document.getElementById("p").addEventListener("mouseover", mouseOver);
-document.getElementById("p").addEventListener("mouseout", mouseOut);
+// document.getElementById("h1").addEventListener("mouseover", mouseOver);
+// document.getElementById("h1").addEventListener("mouseout", mouseOut);
+// document.getElementById("p").addEventListener("mouseover", mouseOver);
+// document.getElementById("p").addEventListener("mouseout", mouseOut);
 
-function mouseOver() {
-    document.getElementById("h1").style.color = "red";
-    document.getElementById("p").style.color = "#990000";
+// function mouseOver() {
+//     document.getElementById("h1").style.color = "red";
+//     document.getElementById("p").style.color = "#990000";
 
-}
+// }
   
-function mouseOut() {
-    document.getElementById("h1").style.color = "black";
-    document.getElementById("p").style.color = "black";
-}
+// function mouseOut() {
+//     document.getElementById("h1").style.color = "black";
+//     document.getElementById("p").style.color = "black";
+// }
 
 fetch( 'http://localhost:3000/information' )
 .then( r => r.json() )
@@ -27,32 +27,45 @@ fetch( 'http://localhost:3000/information' )
 
 function renderMusic( music ) {
    //console.log(music)
-   const conatiner = document.querySelector("body > div")
+   const container = document.querySelector("body > div")
     //const olConatiner = document.querySelector("#myCarousel > ol")
-    const newDiv = document.createElement("div")
-    newDiv.className = "container"
-    conatiner.append(newDiv)
-    const h2 = document.createElement("h2")
-    h2.textContent = music.Genre
+    //newDiv.className = "container"
+    //container.append(newDiv)
+    const card = document.createElement('div')
+    card.className = "card"
+    container.append(card)
+    const h3 = document.createElement("h3")
+    h3.className = "title"
+    h3.textContent = music.Genre
     const image = document.createElement("img")
     image.src = music.image
-    const h3 = document.createElement("h3")
-    h3.textContent = music.artists
-    const p = document.createElement("p")
-    p.textContent = music.message
-    p.className = "carousel-caption"
-   
-   const button = document.createElement("button")
-   let likes = 0
-   button.textContent = likes + parseInt(music.likes) + " Likes \u2665"
-   newDiv.append(h2, image, h3, p, button)
-   
-   button.addEventListener("click", () => {
-    button.textContent = parseInt(button.textContent) + 1 + " Likes \u2665"
- 
-    })
 
+    card.append(h3, image)
+    
+    
+    card.addEventListener('click', () => {
+      
+      const newDiv = document.querySelector(".info")
+      const h4 = document.querySelector(".h4")
+      h4.textContent = music.artists
+      const p = document.querySelector(".p")
+      p.textContent = music.message
+      //const button = document.createElement("button")
+      //button.textContent = parseInt(music.likes) + " Likes \u2665"
+      newDiv.append(h4, p)
+
+      // button.addEventListener("click", () => {
+      //   button.textContent = parseInt(button.textContent) + 1 + " Likes \u2665"
+
+      //   })
+      
+      
+    })
   }
+    
+
+    
+
 
 
 
