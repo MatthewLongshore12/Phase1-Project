@@ -17,15 +17,15 @@ function mouseOut() {
 fetch( 'http://localhost:3000/information' )
 .then( r => r.json() )
 .then( musicArray => {
-    renderMusic( musicArray )
+    musicArray.forEach( musicObj => {
+      renderMusic( musicObj )
+    })
 })
 
 // const conatiner = document.querySelector("#myCarousel > div")
 // const liconatiner = document.querySelector("#myCarousel > ol")
 
-function renderMusic( musicArray ) {
-
- musicArray.forEach( music => {
+function renderMusic( music ) {
    //console.log(music)
    const conatiner = document.querySelector("body > div")
     //const olConatiner = document.querySelector("#myCarousel > ol")
@@ -52,9 +52,9 @@ function renderMusic( musicArray ) {
  
     })
 
-  })
+  }
 
-}
+
 
 const theForm = document.querySelector("#theForm")
 theForm.addEventListener("submit", (e) => {
@@ -75,9 +75,9 @@ theForm.addEventListener("submit", (e) => {
     } )
     .then( r => r.json() )
     .then( addNewMusicObj => {
-      console.log( 'is it work'), addNewMusicObj
+      renderMusic( addNewMusicObj )
     })
     //renderMusic( addNewMusicObj )
 })
-renderMusic( )
+
 
