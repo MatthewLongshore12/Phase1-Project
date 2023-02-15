@@ -3,7 +3,7 @@ document.getElementById("titleH1").addEventListener("mouseover", mouseOver);
 document.getElementById("titleH1").addEventListener("mouseout", mouseOut);
 
 function mouseOver() {
-    document.getElementById("titleH1").style.color = "purple";
+    document.getElementById("titleH1").style.color = "#03e9f4";
 }
   
 function mouseOut() {
@@ -68,7 +68,7 @@ button.addEventListener("click", () => {
 
 
 //Form 
-const theForm = document.querySelector("#theForm")
+const theForm = document.querySelector(".music-box")
 theForm.addEventListener("submit", (e) => {
     e.preventDefault();
     
