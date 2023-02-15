@@ -66,7 +66,10 @@ function renderMusic( music ) {
     
 
     
+  button.addEventListener("click", () => {
+    button.textContent = parseInt(button.textContent) + 1 + " Likes \u2665"
 
+    })
 
 
 
