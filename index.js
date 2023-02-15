@@ -55,10 +55,7 @@ function renderMusic( music ) {
       button.textContent = parseInt(music.likes) + " Likes \u2665"
       newDiv.append(h4, p, button)
 
-      button.addEventListener("click", () => {
-        button.textContent = parseInt(button.textContent) + 1 + " Likes \u2665"
-
-        })
+    
       
       
     })
@@ -66,7 +63,7 @@ function renderMusic( music ) {
     
 
     
-  button.addEventListener("click", () => {
+button.addEventListener("click", () => {
     button.textContent = parseInt(button.textContent) + 1 + " Likes \u2665"
 
     })
