@@ -12,6 +12,9 @@ function mouseOut() {
 
 // Creating Cards
 const button = document.createElement("button")
+
+
+
 const container = document.querySelector("body > div")
 const newDiv = document.querySelector(".info")
 
@@ -49,6 +52,7 @@ function renderMusic( music ) {
     p.textContent = music.message
 
     //Button Likes
+    button.className = "like"
     button.textContent = parseInt(music.likes) + " Likes \u2665"
     newDiv.append(button)
 
@@ -59,6 +63,7 @@ function renderMusic( music ) {
 button.addEventListener("click", () => {
     button.textContent = parseInt(button.textContent) + 1 + " Likes \u2665"
 
+    button.classList.toggle("liked")
 })
 
 
@@ -86,5 +91,7 @@ theForm.addEventListener("submit", (e) => {
     })
    
 })
+
+
 
 

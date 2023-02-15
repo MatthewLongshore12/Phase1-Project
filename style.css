@@ -171,3 +171,50 @@ body {
     text-align: center;
     display: inline-block;
   }
+
+  button {
+    background: white;
+    border: unset;
+    outline: 0;
+    font-size: 18px;
+    cursor: pointer;
+    color: grey;
+    padding: 5px 10px;
+  }
+
+  button.like {
+    color: red;
+    animation: anim 0.5s ease-in-out;
+    -webkit-animation: anim 0.5s ease-in-out;
+  }
+
+  button.liked {
+    color: red;
+    animation: anims 0.5s ease-in-out;
+    -webkit-animation: anims 0.5s ease-in-out;
+  }
+
+
+  @keyframes anim {
+    100% {
+      transform: rotate(-15deg) scale(1.3);
+      -webkit-transform: rotate(-15deg) scale(1.3);
+      -moz-transform: rotate(-15deg) scale(1.3);
+      -ms-transform: rotate(-15deg) scale(1.3);
+      -o-transform: rotate(-15deg) scale(1.3);
+      filter: blur(0.5px);
+      -webkit-filter: blur(0.5px);
+    }
+  }
+
+  @keyframes anims {
+    100% {
+      transform: rotate(15deg) scale(1.3);
+      -webkit-transform: rotate(15deg) scale(1.3);
+      -moz-transform: rotate(15deg) scale(1.3);
+      -ms-transform: rotate(15deg) scale(1.3);
+      -o-transform: rotate(15deg) scale(1.3);
+      filter: blur(0.5px);
+      -webkit-filter: blur(0.5px);
+    }
+  }
