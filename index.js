@@ -1,18 +1,18 @@
-// document.getElementById("h1").addEventListener("mouseover", mouseOver);
-// document.getElementById("h1").addEventListener("mouseout", mouseOut);
+document.getElementById("titleH1").addEventListener("mouseover", mouseOver);
+document.getElementById("titleH1").addEventListener("mouseout", mouseOut);
 // document.getElementById("p").addEventListener("mouseover", mouseOver);
 // document.getElementById("p").addEventListener("mouseout", mouseOut);
 
-// function mouseOver() {
-//     document.getElementById("h1").style.color = "red";
-//     document.getElementById("p").style.color = "#990000";
+function mouseOver() {
+    document.getElementById("titleH1").style.color = "purple";
+    // document.getElementById("p").style.color = "#990000";
 
-// }
+}
   
-// function mouseOut() {
-//     document.getElementById("h1").style.color = "black";
+function mouseOut() {
+    document.getElementById("titleH1").style.color = "grey";
 //     document.getElementById("p").style.color = "black";
-// }
+ }
 const button = document.createElement("button")
 
 fetch( 'http://localhost:3000/information' )
