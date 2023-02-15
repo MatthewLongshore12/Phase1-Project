@@ -40,6 +40,7 @@ function renderMusic( music ) {
     h3.textContent = music.Genre
     const image = document.createElement("img")
     image.src = music.image
+    image.alt = music.Genre
 
     card.append(h3, image)
     
@@ -48,7 +49,7 @@ function renderMusic( music ) {
       
       const newDiv = document.querySelector(".info")
       const h4 = document.querySelector(".h4")
-      h4.textContent = music.artists
+      h4.textContent = "Genre Top Artists: " + music.artists
       const p = document.querySelector(".p")
       p.textContent = music.message
       
