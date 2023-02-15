@@ -13,6 +13,7 @@
 //     document.getElementById("h1").style.color = "black";
 //     document.getElementById("p").style.color = "black";
 // }
+const button = document.createElement("button")
 
 fetch( 'http://localhost:3000/information' )
 .then( r => r.json() )
@@ -50,14 +51,14 @@ function renderMusic( music ) {
       h4.textContent = music.artists
       const p = document.querySelector(".p")
       p.textContent = music.message
-      //const button = document.createElement("button")
-      //button.textContent = parseInt(music.likes) + " Likes \u2665"
-      newDiv.append(h4, p)
+      
+      button.textContent = parseInt(music.likes) + " Likes \u2665"
+      newDiv.append(h4, p, button)
 
-      // button.addEventListener("click", () => {
-      //   button.textContent = parseInt(button.textContent) + 1 + " Likes \u2665"
+      button.addEventListener("click", () => {
+        button.textContent = parseInt(button.textContent) + 1 + " Likes \u2665"
 
-      //   })
+        })
       
       
     })
