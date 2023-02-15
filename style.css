@@ -141,3 +141,14 @@ body {
       -webkit-filter: blur(0.5px);
     }
   }
+
+  .submit {
+    background: white;
+    color: purple;
+    border: unset;
+    outline: 0;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
