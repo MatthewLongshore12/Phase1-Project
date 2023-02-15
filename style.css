@@ -183,13 +183,13 @@ body {
   }
 
   button.like {
-    color: red;
+    color: purple;
     animation: anim 0.5s ease-in-out;
     -webkit-animation: anim 0.5s ease-in-out;
   }
 
   button.liked {
-    color: red;
+    color: purple;
     animation: anims 0.5s ease-in-out;
     -webkit-animation: anims 0.5s ease-in-out;
   }
