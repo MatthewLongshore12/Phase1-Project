@@ -71,7 +71,7 @@ button.addEventListener("click", () => {
 const theForm = document.querySelector(".music-box")
 theForm.addEventListener("submit", (e) => {
     e.preventDefault();
-    
+   
     const addNewMusic = {
       Genre: e.target.fgenre.value,
       image: e.target.fimg.value,
@@ -89,7 +89,7 @@ theForm.addEventListener("submit", (e) => {
     .then( addNewMusicObj => {
       renderMusic( addNewMusicObj )
     })
-   
+    
 })
 
 //hidden function [IntersectionObserver]
